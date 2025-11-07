@@ -2,7 +2,7 @@
 包含基础功能的鸿蒙APP_ArkTS
 
 # 开发环境
-Api Version：18
+Api Version：12
 
 # 已集成功能
 ```
