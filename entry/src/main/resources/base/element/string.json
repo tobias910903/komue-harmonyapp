@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "应用描述"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "装备保障"
+    },
+    {
+      "name": "dialog_tip",
+      "value": "友好提示"
+    },
+    {
+      "name": "btn_sure",
+      "value": "确定"
+    },
+    {
+      "name": "btn_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "btn_save",
+      "value": "保存"
+    }
+  ]
+}

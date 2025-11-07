@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\LIHUYONG\\.ohos\\config\\default_esdp_app_arkts_TdA2UHAQQl3_o4YdbsQWUKI49U1LA6LHB7VvSfOYKoY=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001AD6E3543128A487FD3F5AD003501ED2BDA5F82402F68C776179D235F40BDE13C15509101DFE5C",
+          "profile": "C:\\Users\\LIHUYONG\\.ohos\\config\\default_esdp_app_arkts_TdA2UHAQQl3_o4YdbsQWUKI49U1LA6LHB7VvSfOYKoY=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\LIHUYONG\\.ohos\\config\\default_esdp_app_arkts_TdA2UHAQQl3_o4YdbsQWUKI49U1LA6LHB7VvSfOYKoY=.p12",
+          "storePassword": "0000001A4849FC20B8BC764465C293FAC724BA43EF3D4BDC4B0529BC84A151DFDE6150DF4120611B0DDA"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.0(20)",
+        "compatibleSdkVersion": "5.1.0(18)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
