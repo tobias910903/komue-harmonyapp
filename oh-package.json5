@@ -8,9 +8,8 @@
     "@pura/harmony-web": "^1.0.5",
     "@pura/spinkit": "^1.0.5",
     "@nutpi/eventbus": "^1.0.1",
-    "@ibestservices/ucharts": "^1.0.9",
     "@mcui/mccharts": "^2.8.9",
-    "@ibestservices/ibest-ui": "^2.2.0",
+    "@ibestservices/ibest-ui": "2.1.2",
     "@ohos/axios": "^2.2.6"
   },
   "devDependencies": {

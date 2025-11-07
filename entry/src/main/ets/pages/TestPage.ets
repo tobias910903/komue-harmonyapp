@@ -5,7 +5,6 @@ import { getRouteParams } from '../utils/Router'
 import { EventBus } from '@nutpi/eventbus';
 import { DialogHelper } from '@pura/harmony-dialog';
 import { HelloComponent } from "../components/HelloComponent"
-import { IBestRollingText } from "@ibestservices/ibest-ui";
 import { userApi } from '../api/user';
 
 // 声明接口
@@ -69,18 +68,6 @@ struct TestPage {
               message: '你好，世界!1',
               clickCallback: this.submit
             });
-
-            IBestRollingText({
-              startNum: 12345,
-              targetNum: 54321,
-              numWidth: 40,
-              numHeight: 54,
-              textBgColor: '#1989fa',
-              fontColor: '#fff',
-              fontSize: 24,
-              gap: 6,
-              radius: 4
-            })
 
 
             Button('返回')
